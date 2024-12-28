@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Filament\Admin\Resources\OfficeSpaceResource\Pages;
+namespace App\Filament\Resources\OfficeSpaceResource\Pages;
 
-use App\Filament\Admin\Resources\OfficeSpaceResource;
+use App\Filament\Resources\OfficeSpaceResource;
 use Filament\Actions;
 use Filament\Resources\Pages\CreateRecord;
 

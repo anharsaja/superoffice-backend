@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Filament\Admin\Resources;
+namespace App\Filament\Resources;
 
-use App\Filament\Admin\Resources\BookingTransactionResource\Pages;
-use App\Filament\Admin\Resources\BookingTransactionResource\RelationManagers;
+use App\Filament\Resources\BookingTransactionResource\Pages;
+use App\Filament\Resources\BookingTransactionResource\RelationManagers;
 use App\Models\BookingTransaction;
 use Filament\Forms;
 use Filament\Forms\Form;

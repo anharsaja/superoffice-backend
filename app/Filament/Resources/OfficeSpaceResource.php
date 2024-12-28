@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Filament\Admin\Resources;
+namespace App\Filament\Resources;
 
-use App\Filament\Admin\Resources\OfficeSpaceResource\Pages;
-use App\Filament\Admin\Resources\OfficeSpaceResource\RelationManagers;
+use App\Filament\Resources\OfficeSpaceResource\Pages;
+use App\Filament\Resources\OfficeSpaceResource\RelationManagers;
 use App\Models\OfficeSpace;
 use Filament\Forms;
 use Filament\Forms\Form;

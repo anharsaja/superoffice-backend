@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Filament\Admin\Resources\BookingTransactionResource\Pages;
+namespace App\Filament\Resources\BookingTransactionResource\Pages;
 
-use App\Filament\Admin\Resources\BookingTransactionResource;
+use App\Filament\Resources\BookingTransactionResource;
 use Filament\Actions;
 use Filament\Resources\Pages\ListRecords;
 

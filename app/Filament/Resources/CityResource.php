@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Filament\Admin\Resources;
+namespace App\Filament\Resources;
 
-use App\Filament\Admin\Resources\CityResource\Pages;
-use App\Filament\Admin\Resources\CityResource\RelationManagers;
+use App\Filament\Resources\CityResource\Pages;
+use App\Filament\Resources\CityResource\RelationManagers;
 use App\Models\City;
 use Filament\Forms;
 use Filament\Forms\Form;
@@ -23,7 +23,7 @@ class CityResource extends Resource
     {
         return $form
             ->schema([
-                //
+                
             ]);
     }
 
