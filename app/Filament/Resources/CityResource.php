@@ -23,7 +23,13 @@ class CityResource extends Resource
     {
         return $form
             ->schema([
-                
+                Forms\Components\TextInput::make('name')
+                ->helperText('Isi text disini bambang')
+                ->required()
+                ->maxLength(255),
+
+                Forms\Components\FileUpload::make('photo')
+                ->required()
             ]);
     }
 
@@ -31,7 +37,10 @@ class CityResource extends Resource
     {
         return $table
             ->columns([
-                //
+                Tables\Columns\TextColumn::make('name')
+                ->searchable(),
+
+                Tables\Columns\ImageColumn::make('photo')
             ])
             ->filters([
                 //

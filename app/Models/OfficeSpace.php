@@ -11,18 +11,19 @@ class OfficeSpace extends Model
 {
     use HasFactory, SoftDeletes;
 
-    protected $fillable = [
-        'name',
-        'thumbnail',
-        'address',
-        'is_open',
-        'is_full_booked',
-        'price',
-        'duration',
-        'about',
-        'slug',
-        'city_id',
-    ];
+    protected $guarded = ["id"];
+    // protected $fillable = [
+    //     'name',
+    //     'thumbnail',
+    //     'address',
+    //     'is_open',
+    //     'is_full_booked',
+    //     'price',
+    //     'duration',
+    //     'about',
+    //     'slug',
+    //     'city_id',
+    // ];
 
     public function setNameAttribute($value)
     {
