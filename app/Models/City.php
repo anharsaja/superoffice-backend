@@ -20,5 +20,12 @@ class City extends Model
         $this->attributes['name'] = $value;
         $this->attributes['slug'] = Str::slug($value);
     }
-    
+
+    // ini sementara
+    public function getPhotoUrlAttribute()
+    {
+        return asset('storage/' . $this->photo);
+    }
+
+
 }
