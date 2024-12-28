@@ -74,7 +74,9 @@ class BookingTransactionResource extends Resource
                 ->searchable(),
 
                 Tables\Columns\TextColumn::make('name')
-                ->searchable(),
+                ->searchable(),                
+                
+                Tables\Columns\TextColumn::make('booking_trx_id'),
 
                 Tables\Columns\TextColumn::make('officeSpace.name'),
 
